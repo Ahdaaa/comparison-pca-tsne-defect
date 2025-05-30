@@ -1,0 +1,9 @@
+Model,Best Params,Accuracy,Precision,Recall,F1-Score
+Logistic Regression,{'C': 0.1},0.74,0.7380952380952381,0.744,0.7410358565737052
+SVM,"{'C': 10, 'kernel': 'rbf'}",0.88,0.8321678321678322,0.952,0.8880597014925373
+KNN,{'n_neighbors': 3},0.896,0.8278145695364238,1.0,0.9057971014492754
+Random Forest,"{'max_depth': None, 'n_estimators': 50}",0.928,0.8962962962962963,0.968,0.9307692307692308
+AdaBoost,"{'learning_rate': 1.0, 'n_estimators': 200}",0.84,0.8195488721804511,0.872,0.8449612403100775
+Gradient Boosting,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}",0.908,0.8695652173913043,0.96,0.9125475285171103
+CatBoost,"{'depth': 5, 'iterations': 200, 'learning_rate': 0.1}",0.924,0.8785714285714286,0.984,0.9283018867924528
+XGBoost,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",0.936,0.9037037037037037,0.976,0.9384615384615385
